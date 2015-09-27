@@ -1,0 +1,23 @@
+/* This is here to give everything a red border, just to make it easier to see while developing. */
+* {
+  box-sizing: border-box;
+
+/*  border: thin red solid;*/
+}
+/* You can turn it off if you want. (delete or comment it out) */
+
+/* Write your rules below */
+
+.hyperlink {
+  background-color: lightblue;
+  border-radius: 8px;
+  text-align: center;
+/*  vertical-align: middle;*/
+  padding-top: 5px;
+  color: white;
+  display: block;
+  height: 28px;
+  width: 100%;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px darkgray;
+}

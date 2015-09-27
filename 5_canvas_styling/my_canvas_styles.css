@@ -1,0 +1,55 @@
+.canvas_section {
+  border: solid;
+  border-width: 1px;
+}
+
+
+.canvas {
+  font-family: arial;
+  width: 100%
+}
+
+
+h2 {
+  padding-left: 5px;
+}
+
+
+h3 {
+  padding-left: 5px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 6pt
+}
+
+
+ul {
+  list-style-type: none;
+  padding-left: 5px;
+  margin: 0;
+}
+
+
+ul.sublist {
+  font-style: italic;
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+ol.sublist {
+  counter-increment: step-counter;
+  padding-left: 15px;
+  line-height: 0;
+}
+
+
+p {
+  font-style: italic;
+  padding-left: 0px;
+  line-height: 0;
+}
+
+
+.wide_input {
+  width: 90%;
+}
